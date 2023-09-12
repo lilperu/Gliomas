@@ -18,6 +18,10 @@ library(baguette)
 library(vip)
 library(rpart.plot)
 
+urlfile<-'TCGA_GBM_LGG_Mutations_all.csv'
+if(!file.exists(urlfile))
+  download.file("https://github.com/lilperu/Gliomas/blob/main/TCGA_GBM_LGG_Mutations_all.csv", urlfile)
+
 # open and preview data
 genes<- read.csv("TCGA_GBM_LGG_Mutations_all.csv")
 head(genes)
