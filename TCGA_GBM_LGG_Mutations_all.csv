@@ -1,0 +1,863 @@
+﻿Grade,Project,Case_ID,Gender,Age_at_diagnosis,Primary_Diagnosis,Race,IDH1,TP53,ATRX,PTEN,EGFR,CIC,MUC16,PIK3CA,NF1,PIK3R1,FUBP1,RB1,NOTCH1,BCOR,CSMD3,SMARCA4,GRIN2A,IDH2,FAT4,PDGFRA
+LGG,TCGA-LGG,TCGA-DU-8164,Male,51.3,"Oligodendroglioma, NOS",white,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A6CY,Male,38.7,Mixed glioma,white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HW-A5KM,Male,35.2,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7YE,Female,32.8,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0
+LGG,TCGA-LGG,TCGA-S9-A6WG,Male,31.5,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A4X9,Female,33.2,Mixed glioma,white,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A5F4,Female,35.2,"Oligodendroglioma, anaplastic",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-A4MY,Female,44.7,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A5R5,Female,34.0,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A76K,Male,87.0,"Oligodendroglioma, NOS",white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A6CV,Male,51.9,Mixed glioma,asian,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-5962,Male,54.3,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-6402,Male,52.6,"Astrocytoma, anaplastic",white,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+LGG,TCGA-LGG,TCGA-DB-A75M,Male,47.3,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A4XG,Male,34.4,"Oligodendroglioma, anaplastic",white,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-DU-5851,Female,40.5,Mixed glioma,white,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A4XH,Female,54.0,Mixed glioma,white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7874,Female,41.2,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DH-A66D,Female,43.4,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-5871,Female,37.4,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-A60J,Female,47.5,Mixed glioma,white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7Z3,Female,31.0,"Astrocytoma, NOS",black or african american,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7011,Male,25.5,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-VW-A8FI,Male,66.8,"Astrocytoma, anaplastic",white,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A7TB,Male,56.7,"Oligodendroglioma, NOS",asian,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7856,Male,36.0,"Oligodendroglioma, anaplastic",white,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-TQ-A7RU,Male,52.0,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HW-7486,Male,37.1,"Oligodendroglioma, NOS",white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-6399,Male,54.5,"Oligodendroglioma, NOS",white,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A7TA,Male,32.2,"Oligodendroglioma, NOS",white,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-HT-A5RA,Female,65.1,"Astrocytoma, anaplastic",white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-5280,Male,43.4,Mixed glioma,white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-6405,Female,51.2,"Astrocytoma, anaplastic",white,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A7J1,Male,43.6,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A7J2,Male,25.6,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HW-7495,Female,45.1,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-A710,Female,50.4,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A5ET,Male,27.5,"Oligodendroglioma, NOS",white,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7300,Female,53.7,"Oligodendroglioma, anaplastic",white,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A5TY,Female,46.4,"Astrocytoma, anaplastic",white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-VM-A8CH,Female,24.7,"Astrocytoma, NOS",white,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-R8-A6YH,--,0.0,--,--,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6WE,Male,34.2,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7681,Female,29.5,Mixed glioma,white,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-KT-A7W1,Female,45.3,"Astrocytoma, anaplastic",white,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+LGG,TCGA-LGG,TCGA-FG-5964,Male,62.2,"Oligodendroglioma, NOS",white,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6TX,Male,46.6,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A5F2,Female,36.7,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-5874,Female,62.6,"Oligodendroglioma, NOS",white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A5TT,Male,70.4,"Oligodendroglioma, anaplastic",white,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-CS-5396,Female,53.1,"Oligodendroglioma, anaplastic",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7302,Female,48.3,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6TW,Male,40.2,"Oligodendroglioma, anaplastic",white,1,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-RY-A845,Female,40.0,Mixed glioma,white,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A61A,Female,21.0,"Oligodendroglioma, NOS",white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7018,Female,57.5,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-HW-7489,Male,38.9,Mixed glioma,white,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-R8-A6ML,Male,52.5,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DH-5144,Female,56.3,"Oligodendroglioma, anaplastic",white,1,0,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7013,Male,59.8,"Astrocytoma, anaplastic",white,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-CS-4941,Male,67.3,"Astrocytoma, anaplastic",white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-WY-A85E,Female,48.9,Mixed glioma,white,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DH-A7UR,Female,59.7,"Oligodendroglioma, anaplastic",white,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0
+LGG,TCGA-LGG,TCGA-HT-7689,Female,58.4,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+LGG,TCGA-LGG,TCGA-S9-A7R7,Male,27.7,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A619,Female,51.6,"Oligodendroglioma, anaplastic",asian,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7012,Female,74.0,"Astrocytoma, anaplastic",black or african american,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6UB,Male,52.6,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-5281,Male,61.2,Mixed glioma,white,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A6CX,Male,66.4,"Astrocytoma, NOS",white,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-5318,Female,42.1,"Oligodendroglioma, NOS",white,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-CS-6290,Male,31.9,"Astrocytoma, anaplastic",not reported,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6U2,Female,48.7,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A74J,Male,33.9,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-WY-A859,Female,34.6,"Astrocytoma, NOS",white,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A5RB,Male,24.1,"Astrocytoma, NOS",white,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-8168,Female,55.1,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,1,1,0,0,1,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A6X3,Male,27.9,Mixed glioma,white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-5853,Male,29.1,Mixed glioma,white,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-CS-6667,Female,39.4,"Astrocytoma, NOS",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+LGG,TCGA-LGG,TCGA-S9-A89V,Male,70.0,"Astrocytoma, anaplastic",white,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-8012,Female,30.9,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A7IY,Male,39.5,Mixed glioma,white,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TQ-A7RS,Female,25.1,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+LGG,TCGA-LGG,TCGA-QH-A6XC,Male,48.4,"Astrocytoma, anaplastic",white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-CS-6668,Female,57.0,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-5277,Male,34.8,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-CS-6186,Male,58.4,Mixed glioma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A4DS,Female,55.6,"Astrocytoma, anaplastic",white,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-8165,Female,60.1,"Oligodendroglioma, NOS",white,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7605,Male,38.0,"Oligodendroglioma, NOS",white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-6410,Male,56.3,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-RY-A83Z,Female,54.5,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HW-8321,Male,31.4,"Astrocytoma, NOS",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A7QW,Female,54.4,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6WL,Male,52.7,"Astrocytoma, anaplastic",white,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A5TW,Female,33.1,"Astrocytoma, anaplastic",black or african american,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HW-A5KL,Female,42.5,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-WY-A85A,Male,20.2,"Astrocytoma, NOS",white,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A72Z,Female,64.3,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-8163,Male,29.6,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-5275,Male,36.6,Mixed glioma,white,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-8187,Male,32.0,Mixed glioma,white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A5EU,Male,35.2,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7478,Male,36.2,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A65S,Female,32.5,Mixed glioma,white,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7881,Male,38.8,"Oligodendroglioma, NOS",black or african american,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TQ-A7RO,Male,29.8,Mixed glioma,black or african american,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-FG-8188,Male,41.2,Mixed glioma,white,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-8182,Male,35.5,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A5R7,Female,33.1,"Astrocytoma, anaplastic",white,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+LGG,TCGA-LGG,TCGA-DB-5276,Male,32.1,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-8113,Female,49.8,"Oligodendroglioma, NOS",black or african american,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-S9-A7R2,Male,69.6,"Astrocytoma, anaplastic",white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7483,Male,14.4,Mixed glioma,white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A7IS,Female,34.0,"Astrocytoma, anaplastic",white,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+LGG,TCGA-LGG,TCGA-QH-A6X4,Male,47.3,Mixed glioma,white,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A5TP,Male,33.2,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-6692,Male,64.0,"Oligodendroglioma, anaplastic",white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A74H,Male,62.6,"Astrocytoma, anaplastic",white,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0
+LGG,TCGA-LGG,TCGA-DU-A6S2,Female,37.2,"Oligodendroglioma, NOS",black or african american,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-6394,Male,53.5,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-R8-A6MO,Female,53.2,"Oligodendroglioma, NOS",asian,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A7IQ,Female,45.2,Mixed glioma,white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-8189,Female,33.9,"Oligodendroglioma, NOS",white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-FG-A70Z,Female,54.0,Mixed glioma,black or african american,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7474,Male,52.4,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-8010,Female,64.8,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A72U,Female,71.2,"Oligodendroglioma, anaplastic",white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-HT-8018,Female,40.8,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HW-8320,Male,37.0,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-6542,Male,25.7,Mixed glioma,white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7YN,Female,63.5,"Astrocytoma, anaplastic",white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-CS-5394,Male,40.8,"Astrocytoma, anaplastic",white,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-A4MX,Male,47.6,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6WH,Female,73.7,Mixed glioma,white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-WY-A85B,Male,24.1,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A7IZ,Female,48.9,"Astrocytoma, anaplastic",white,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A7QZ,Male,41.9,"Oligodendroglioma, NOS",white,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A75L,Female,36.5,"Astrocytoma, anaplastic",white,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7YO,Male,45.9,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A5EZ,Male,39.4,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A7R8,Female,44.6,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7YY,Female,27.0,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7604,Male,50.5,"Astrocytoma, NOS",black or african american,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-5304,Male,42.4,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A89Z,Male,40.7,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+LGG,TCGA-LGG,TCGA-E1-5307,Female,62.5,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-A711,Female,33.5,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TM-A84R,Male,46.1,"Oligodendroglioma, NOS",white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-HW-7490,Male,41.3,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-8564,Male,47.9,"Astrocytoma, anaplastic",white,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7875,Male,56.4,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DH-5140,Female,38.2,Mixed glioma,white,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-WY-A85D,Male,60.2,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TQ-A7RK,Male,29.4,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-6688,Female,59.5,"Astrocytoma, anaplastic",black or african american,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7479,Male,44.2,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-8167,Female,69.2,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7YM,Male,63.7,"Astrocytoma, anaplastic",white,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A6CW,Male,43.4,Mixed glioma,white,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-8162,Female,61.9,Mixed glioma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A5EV,Male,39.2,"Astrocytoma, NOS",white,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A64Q,Female,31.9,Mixed glioma,not reported,1,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A5TR,Male,51.4,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TM-A7CF,Female,41.6,"Astrocytoma, NOS",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-A6IZ,Male,61.0,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7687,Male,74.4,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TM-A84J,Male,63.2,"Oligodendroglioma, anaplastic",white,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A61C,Male,66.5,"Oligodendroglioma, anaplastic",white,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A76R,Male,51.9,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7481,Male,39.2,"Oligodendroglioma, NOS",white,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A4XB,Male,38.3,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-A87N,Female,37.3,"Astrocytoma, anaplastic",asian,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A7J0,Female,30.1,"Oligodendroglioma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-CS-5397,Female,54.4,"Astrocytoma, anaplastic",white,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-WY-A85C,Male,37.0,"Astrocytoma, NOS",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-CS-6188,Male,48.5,"Astrocytoma, anaplastic",white,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7690,Male,29.2,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TQ-A7RN,Male,32.4,"Oligodendroglioma, NOS",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-A6J1,Female,44.1,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TM-A7C5,Male,30.9,Mixed glioma,white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-5854,Female,57.8,"Astrocytoma, anaplastic",white,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+LGG,TCGA-LGG,TCGA-TM-A84T,Male,19.2,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DH-A669,Male,70.7,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-A4MW,Male,63.2,Mixed glioma,white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-5302,Male,41.7,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7603,Male,29.8,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6WP,Male,42.9,Mixed glioma,white,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A4DV,Female,51.5,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-5270,Female,38.1,Mixed glioma,white,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7YW,Male,28.9,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7009,Female,32.5,"Oligodendroglioma, NOS",white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-8108,Female,26.1,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7306,Male,67.9,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A64P,Male,40.9,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7688,Male,59.8,"Oligodendroglioma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-VM-A8CD,Male,58.0,"Astrocytoma, anaplastic",white,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A64X,Female,56.5,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7877,Female,20.8,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DH-A66F,Male,49.8,"Oligodendroglioma, NOS",white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A77W,Female,37.1,Mixed glioma,white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A5R9,Female,48.7,"Oligodendroglioma, anaplastic",white,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-E1-A7YS,Male,71.6,"Oligodendroglioma, anaplastic",black or african american,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TM-A7C3,Female,43.9,"Astrocytoma, anaplastic",white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A6S7,Female,27.8,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TQ-A7RJ,Female,25.2,Mixed glioma,white,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-RY-A843,Male,30.3,"Astrocytoma, anaplastic",white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-RY-A840,Male,47.9,"Oligodendroglioma, anaplastic",not reported,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-6395,Male,31.7,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-8191,Male,30.8,"Oligodendroglioma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7606,Female,30.8,"Astrocytoma, NOS",white,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7857,Female,24.4,"Astrocytoma, anaplastic",white,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7015,Female,41.2,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7609,Male,34.5,Mixed glioma,white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6WI,Female,56.4,Mixed glioma,white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6TZ,Female,40.0,"Astrocytoma, NOS",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-6691,Female,23.0,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-6401,Female,31.7,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-5278,Male,17.7,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-8109,Male,64.3,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-A4MT,Female,27.6,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7292,Male,69.2,"Astrocytoma, anaplastic",white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-CS-4943,Male,37.1,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-VV-A829,Male,44.3,Mixed glioma,white,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FN-7833,Male,25.3,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7695,Female,29.6,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A4XC,Male,26.6,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-CS-5390,Female,47.8,"Oligodendroglioma, NOS",white,1,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7855,Male,39.7,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A6S6,Female,35.1,Mixed glioma,white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-VM-A8CB,Male,33.8,"Oligodendroglioma, anaplastic",not reported,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-A713,Female,74.6,Mixed glioma,white,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DH-A7US,Male,50.5,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-WH-A86K,Male,65.9,"Astrocytoma, NOS",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-6403,Female,60.3,Mixed glioma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-5870,Female,34.9,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A736,Female,44.6,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A72X,Male,21.7,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-8011,Male,55.2,"Astrocytoma, anaplastic",white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-CS-6670,Male,44.0,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-8114,Male,36.1,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-6690,Male,70.3,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-6408,Female,24.0,"Oligodendroglioma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-IK-7675,Male,43.5,"Oligodendroglioma, NOS",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TM-A84I,Male,30.7,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A64U,Female,38.4,Mixed glioma,white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-5847,Female,34.5,"Astrocytoma, anaplastic",white,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7YJ,Male,55.3,"Astrocytoma, anaplastic",white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A4XA,Male,30.7,Mixed glioma,white,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+LGG,TCGA-LGG,TCGA-DU-5852,Female,61.2,Mixed glioma,white,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TM-A7CA,Male,44.9,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-6407,Female,35.7,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HW-A5KJ,Male,68.4,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TM-A84H,Female,44.6,Mixed glioma,white,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7472,Male,38.2,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-VV-A86M,Female,36.8,"Astrocytoma, anaplastic",not reported,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A7TD,Male,52.1,Mixed glioma,white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A7QX,Female,36.5,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7YI,Female,33.5,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7860,Female,60.3,"Astrocytoma, anaplastic",white,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A780,Female,44.2,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7YQ,Female,58.4,"Oligodendroglioma, anaplastic",black or african american,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6U5,Male,34.0,"Astrocytoma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-8107,Male,62.6,"Oligodendroglioma, NOS",white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-CS-4942,Female,44.6,"Astrocytoma, anaplastic",black or african american,1,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6U9,Male,36.9,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7686,Female,29.4,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A75P,Female,25.8,"Astrocytoma, NOS",not reported,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A5EW,Female,20.8,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7607,Female,61.8,"Astrocytoma, NOS",white,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7309,Female,41.6,"Oligodendroglioma, anaplastic",white,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-P5-A737,Male,47.6,Mixed glioma,white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6WM,Female,59.6,"Astrocytoma, anaplastic",white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-7636,Male,48.9,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-5322,Female,38.1,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TQ-A7RF,Female,27.2,"Oligodendroglioma, anaplastic",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7010,Female,58.0,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A6CS,Male,41.3,"Astrocytoma, anaplastic",white,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7476,Male,26.3,"Astrocytoma, NOS",white,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+LGG,TCGA-LGG,TCGA-HT-7884,Female,44.6,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A7TC,Male,32.5,"Astrocytoma, NOS",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-CS-6666,Male,22.8,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7610,Female,25.9,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-A60K,Female,34.1,Mixed glioma,white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6U8,Male,24.8,"Astrocytoma, NOS",white,1,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-8563,Female,31.0,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TQ-A7RH,Male,39.8,Mixed glioma,black or african american,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6U1,Female,22.6,"Astrocytoma, anaplastic",white,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7301,Male,53.8,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-6689,Male,31.0,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-8013,Female,37.7,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A616,Female,36.2,"Astrocytoma, NOS",white,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7008,Female,41.9,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7YD,Male,57.6,"Astrocytoma, anaplastic",white,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7YK,Male,52.7,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TM-A84Q,Male,31.9,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-WY-A858,Female,32.5,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-F6-A8O4,Male,44.4,"Astrocytoma, NOS",asian,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-R8-A6MK,Male,40.3,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-VM-A8CF,Female,44.7,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-5965,Female,39.0,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7854,Male,62.3,"Astrocytoma, NOS",white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-RY-A847,Male,45.8,"Oligodendroglioma, NOS",white,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-5849,Male,48.4,"Oligodendroglioma, NOS",white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-FG-7637,Male,49.5,Mixed glioma,white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A65R,Female,38.5,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A7R3,Female,28.3,"Astrocytoma, NOS",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A735,Female,38.7,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A618,Female,37.2,"Astrocytoma, anaplastic",white,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7Z2,Female,58.4,"Oligodendroglioma, NOS",white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TQ-A7RM,Female,41.5,Mixed glioma,white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7694,Male,60.0,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-VM-A8C8,Female,50.6,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7616,Male,75.8,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-CS-5395,Male,43.4,Mixed glioma,black or african american,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A7J3,Female,52.2,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-5303,Male,38.9,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-CS-4944,Male,50.6,"Astrocytoma, NOS",white,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7882,Male,66.9,"Oligodendroglioma, anaplastic",white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+LGG,TCGA-LGG,TCGA-DH-A7UT,Male,30.2,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A64O,Male,59.7,Mixed glioma,white,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-VW-A7QS,Female,35.1,"Oligodendroglioma, anaplastic",asian,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A870,Female,38.6,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A5TS,Male,42.8,"Oligodendroglioma, NOS",black or african american,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A731,Female,59.5,Mixed glioma,white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-KT-A74X,Male,26.3,Mixed glioma,white,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-A4MU,Male,58.7,Mixed glioma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-5311,Male,31.0,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7902,Female,30.4,Mixed glioma,white,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7290,Female,45.6,"Astrocytoma, anaplastic",white,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-5274,Female,37.5,Mixed glioma,white,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-A60L,Female,34.4,"Astrocytoma, NOS",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A781,Female,34.9,"Astrocytoma, anaplastic",white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A4XD,Male,32.1,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-6393,Male,66.5,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6U0,Male,46.2,"Astrocytoma, anaplastic",white,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7298,Female,38.9,"Astrocytoma, anaplastic",black or african american,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7299,Male,33.6,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A7TG,Male,40.2,"Oligodendroglioma, NOS",white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-A6J3,Female,52.4,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-5279,Male,60.0,"Oligodendroglioma, NOS",not reported,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A6X5,Female,58.2,Mixed glioma,white,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-CS-4938,Female,31.5,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-5872,Female,43.8,Mixed glioma,black or african american,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7007,Male,33.5,"Astrocytoma, NOS",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A77X,Female,55.1,Mixed glioma,white,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7304,Male,43.6,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A6S3,Male,60.3,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A86X,Male,33.9,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-5319,Female,48.2,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A5RC,Female,70.6,"Astrocytoma, anaplastic",white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-8106,Male,53.5,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+LGG,TCGA-LGG,TCGA-S9-A6UA,Male,66.4,"Astrocytoma, anaplastic",white,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TM-A84S,Male,36.8,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7620,Male,40.1,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A7T6,Female,73.3,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7611,Male,36.5,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A6S8,Female,74.2,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A65V,Female,43.4,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TM-A84B,Male,40.9,"Astrocytoma, anaplastic",white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A6CZ,Male,38.4,Mixed glioma,white,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TM-A84G,Female,54.8,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-8161,Female,63.1,Mixed glioma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7477,Male,62.8,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-6392,Female,35.1,"Astrocytoma, anaplastic",white,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,1
+LGG,TCGA-LGG,TCGA-CS-5393,Male,39.5,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6WO,Male,29.9,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A7R4,Male,46.9,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-RY-A83X,Female,46.3,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7693,Female,51.9,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7467,Male,54.6,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-8186,Female,42.2,Mixed glioma,white,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HW-A5KK,Male,64.3,"Astrocytoma, anaplastic",white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A75O,Male,29.6,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A64W,Female,65.5,Mixed glioma,white,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A4XF,Female,41.2,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-7638,Female,31.6,"Oligodendroglioma, anaplastic",white,1,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A74K,Female,58.0,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-8105,Male,54.9,"Oligodendroglioma, anaplastic",white,1,1,0,0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6U6,Male,28.1,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+LGG,TCGA-LGG,TCGA-FG-A70Y,Female,20.3,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-F6-A8O3,Male,34.4,"Oligodendroglioma, NOS",asian,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A65Z,Male,54.5,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-6397,Male,45.7,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6TS,Female,48.9,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DH-5142,Male,29.2,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A730,Male,22.0,Mixed glioma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-TM-A84C,Male,32.4,"Astrocytoma, NOS",white,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TM-A84M,Male,40.1,"Oligodendroglioma, anaplastic",white,1,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TM-A84O,Female,61.1,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A7IX,Male,57.8,"Astrocytoma, anaplastic",white,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A76L,Male,54.3,"Oligodendroglioma, anaplastic",white,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A6X8,Female,56.9,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HW-8319,Female,34.4,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A4XE,Female,27.8,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-VM-A8C9,Female,37.4,"Astrocytoma, NOS",not reported,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7677,Male,53.7,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DH-A7UU,Male,43.9,"Astrocytoma, anaplastic",white,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7Z6,Female,41.0,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A5F0,Male,33.3,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7019,Male,39.1,Mixed glioma,white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7879,Male,31.8,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A64L,Female,67.6,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7469,Male,30.4,"Oligodendroglioma, anaplastic",white,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+LGG,TCGA-LGG,TCGA-TM-A84F,Male,48.6,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6TY,Male,50.8,"Oligodendroglioma, NOS",white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-RY-A83Y,Male,45.1,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7YH,Female,47.8,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DH-5141,Male,32.4,"Oligodendroglioma, anaplastic",white,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-HT-A615,Female,38.0,"Oligodendroglioma, NOS",white,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+LGG,TCGA-LGG,TCGA-HT-7676,Male,26.5,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7873,Male,29.6,Mixed glioma,white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7473,Male,28.2,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-6400,Female,66.0,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HW-8322,Male,39.8,"Oligodendroglioma, NOS",white,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7480,Male,33.7,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7006,Female,60.2,"Astrocytoma, anaplastic",white,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A72W,Male,35.2,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A7R1,Male,35.1,"Oligodendroglioma, NOS",white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7684,Male,58.5,Mixed glioma,white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7YV,Female,26.1,Mixed glioma,white,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A5F1,Male,30.3,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6WN,Female,38.2,"Astrocytoma, anaplastic",white,1,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A7T8,Male,35.9,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HW-7487,Male,39.8,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A7TJ,Male,55.8,"Astrocytoma, anaplastic",black or african american,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-5855,Female,49.9,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6TV,Male,50.2,Mixed glioma,white,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DH-A66B,Male,52.4,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-8104,Female,51.3,"Astrocytoma, anaplastic",white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-A87Q,Female,61.8,"Astrocytoma, anaplastic",white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A733,Female,52.4,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7Z4,Male,35.2,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-EZ-7264,Female,47.7,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A7QY,Female,35.2,Mixed glioma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-DU-6396,Female,31.3,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-W9-A837,Male,0.0,"Oligodendroglioma, NOS",white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-7641,Male,31.1,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7471,Female,37.1,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7470,Male,37.3,"Oligodendroglioma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A6CU,Female,52.4,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7485,Male,42.7,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TQ-A7RW,Male,32.3,Mixed glioma,white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7608,Male,61.1,Mixed glioma,black or african american,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-R8-A73M,Female,48.2,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A74O,Male,34.1,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7468,Male,30.7,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7880,Male,30.2,Mixed glioma,white,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7858,Male,28.5,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A614,Male,47.6,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-HW-7491,Male,35.2,"Oligodendroglioma, NOS",white,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-FG-5963,Male,23.5,"Astrocytoma, anaplastic",white,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DH-A7UV,Male,49.7,"Astrocytoma, anaplastic",white,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TQ-A7RG,Male,36.2,Mixed glioma,white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-VM-A8CA,Male,54.7,"Oligodendroglioma, NOS",not reported,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A61B,Male,22.8,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7YU,Male,42.0,Mixed glioma,white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A65X,Female,28.6,Mixed glioma,white,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+LGG,TCGA-LGG,TCGA-VM-A8CE,Male,25.6,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TQ-A7RP,Male,66.0,Mixed glioma,black or african american,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-A7YL,Male,46.5,"Astrocytoma, anaplastic",white,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-8158,Female,57.8,"Astrocytoma, anaplastic",white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7692,Male,43.1,Mixed glioma,white,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-7643,Female,49.8,Mixed glioma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-5273,Male,33.3,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TQ-A7RV,Male,27.8,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-A5TU,Female,62.5,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A75K,Female,55.4,Mixed glioma,white,1,0,0,0,0,1,0,0,1,0,1,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TQ-A7RI,Female,37.8,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-8185,Male,37.3,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-8111,Male,32.3,Mixed glioma,white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TQ-A7RR,Male,38.4,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TQ-A8XE,Female,42.8,"Oligodendroglioma, NOS",white,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A617,Male,47.5,"Oligodendroglioma, NOS",american indian or alaska native,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A64V,Male,54.6,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-8166,Female,29.1,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TM-A7C4,Female,40.0,"Astrocytoma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-FG-7634,Male,28.7,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A6XA,Female,23.3,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7602,Male,21.8,"Oligodendroglioma, NOS",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6TU,Male,38.6,"Astrocytoma, NOS",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DH-A66G,Female,49.8,"Oligodendroglioma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TQ-A7RQ,Female,38.8,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-A74L,Female,22.6,Mixed glioma,white,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7475,Male,67.6,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-QH-A6X9,Female,73.9,"Oligodendroglioma, NOS",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-IK-8125,Male,62.3,Mixed glioma,white,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-S9-A6WQ,Female,57.9,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DH-5143,Male,30.9,Mixed glioma,white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A64R,Female,24.5,"Oligodendroglioma, NOS",not reported,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DB-A64S,Male,20.2,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-P5-A5EX,Female,41.3,"Oligodendroglioma, anaplastic",white,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-DU-7294,Female,53.7,"Oligodendroglioma, NOS",white,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+LGG,TCGA-LGG,TCGA-E1-5305,Male,34.6,"Astrocytoma, anaplastic",white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-CS-6665,Female,52.0,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-7601,Female,30.1,"Astrocytoma, anaplastic",white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-HT-8110,Male,58.0,"Astrocytoma, anaplastic",white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LGG,TCGA-LGG,TCGA-TM-A84L,Male,31.5,Mixed glioma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-1450,Female,57.4,Glioblastoma,black or african american,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0819,Female,49.7,Glioblastoma,black or african american,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-1991,Male,60.3,Glioblastoma,white,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-6660,Male,73.7,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-6285,Female,64.8,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-74-6575,Female,73.4,Glioblastoma,not reported,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-81-5911,Male,33.7,Glioblastoma,white,0,0,0,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-5220,Male,67.4,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0876,Female,72.2,Glioblastoma,black or african american,0,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-0787,Male,69.3,Glioblastoma,asian,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0939,Female,79.1,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0152,Male,68.0,Glioblastoma,white,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-1982,Female,76.0,Glioblastoma,white,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-2634,Male,82.0,Glioblastoma,white,0,1,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-4927,Male,58.0,Glioblastoma,white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-5950,Female,52.7,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-1804,Female,81.6,Glioblastoma,white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+GBM,TCGA-GBM,TCGA-19-2631,Female,74.5,Glioblastoma,white,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+GBM,TCGA-GBM,TCGA-12-3649,Male,76.2,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-1829,Male,57.3,Glioblastoma,black or african american,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-27-1833,Female,67.3,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+GBM,TCGA-GBM,TCGA-76-6282,Male,63.9,Glioblastoma,white,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+GBM,TCGA-GBM,TCGA-06-6388,Female,64.4,Glioblastoma,white,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-1979,Female,69.1,Glioblastoma,white,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-5222,Male,66.1,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-02-0033,Male,55.0,Glioblastoma,white,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-1034,Female,60.3,Glioblastoma,not reported,0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0818,Female,45.6,Glioblastoma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-27-1837,Male,36.6,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0618,Male,49.5,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-2513,Female,69.6,Glioblastoma,white,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-5408,Female,54.9,Glioblastoma,white,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-6662,Male,58.9,Glioblastoma,white,0,1,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-3648,Female,61.5,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-81-5910,Male,64.5,Glioblastoma,white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-15-0742,Male,65.8,Glioblastoma,white,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-5415,Male,60.8,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-1088,Female,53.8,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-A60I,Male,39.5,Glioblastoma,black or african american,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-1092,Male,58.6,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+GBM,TCGA-GBM,TCGA-19-1790,Male,56.5,Glioblastoma,white,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-0812,Male,65.9,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-16-1460,Female,36.2,Glioblastoma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-5204,Male,72.5,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-41-3915,Male,49.0,Glioblastoma,white,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-1451,Male,39.4,Glioblastoma,white,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-1084,Male,54.5,Glioblastoma,black or african american,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0
+GBM,TCGA-GBM,TCGA-06-0125,Female,63.9,Glioblastoma,white,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-6656,Male,66.4,Glioblastoma,black or african american,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-2554,Female,52.3,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-A7TK,Male,64.8,Glioblastoma,black or african american,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-41-2571,Male,89.3,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-6661,Male,54.7,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-6450,Male,60.7,Glioblastoma,white,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-2509,Female,77.3,Glioblastoma,white,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-0862,Male,60.7,Glioblastoma,white,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-2632,Male,80.2,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+GBM,TCGA-GBM,TCGA-19-2624,Male,51.7,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0686,Male,53.4,Glioblastoma,white,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0750,Male,43.9,Glioblastoma,white,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-3476,Male,74.4,Glioblastoma,white,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0209,Male,76.3,Glioblastoma,white,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0132,Male,49.6,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0656,Female,48.9,Glioblastoma,black or african american,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-26-1799,Male,68.9,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+GBM,TCGA-GBM,TCGA-14-0871,Female,75.0,Glioblastoma,white,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0657,Male,69.6,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-1786,Female,64.5,Glioblastoma,asian,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-6390,Male,58.4,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-5219,Female,47.2,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-1455,Male,61.8,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+GBM,TCGA-GBM,TCGA-41-2575,Male,75.5,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-5216,Male,52.7,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-26-A7UX,Male,47.5,Glioblastoma,black or african american,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-A5U0,Female,21.8,Glioblastoma,black or african american,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-1980,Male,72.5,Glioblastoma,white,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0
+GBM,TCGA-GBM,TCGA-19-4068,Female,68.3,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0744,Male,67.0,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-4935,Female,52.7,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-26-5133,Male,59.0,Glioblastoma,white,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-41-5651,Female,59.4,Glioblastoma,black or african american,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-1787,Male,49.0,Glioblastoma,white,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+GBM,TCGA-GBM,TCGA-28-1745,Male,76.2,Glioblastoma,white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-5213,Male,72.5,Glioblastoma,white,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+GBM,TCGA-GBM,TCGA-74-6577,Male,51.3,Glioblastoma,not reported,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-2638,Male,67.5,Glioblastoma,white,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-1791,Female,82.3,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-6693,Female,64.6,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-1087,Male,75.7,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-4928,Female,85.6,Glioblastoma,white,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+GBM,TCGA-GBM,TCGA-32-4210,Male,73.3,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-5412,Female,78.7,Glioblastoma,white,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-5417,Female,45.4,Glioblastoma,white,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-1752,Female,42.6,Glioblastoma,white,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0747,Male,53.8,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0169,Male,68.8,Glioblastoma,white,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-26-1442,Male,43.7,Glioblastoma,white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-2499,Male,59.8,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-27-2518,Male,52.4,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+GBM,TCGA-GBM,TCGA-06-0216,Female,61.7,Glioblastoma,white,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-1750,Female,40.6,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0137,Female,63.7,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0184,Male,63.8,Glioblastoma,white,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-2620,Male,70.3,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-41-2573,Male,60.0,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-27-2524,Male,56.3,Glioblastoma,white,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0190,Male,62.5,Glioblastoma,white,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0773,Male,24.2,Glioblastoma,white,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-2563,Female,72.9,Glioblastoma,white,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-74-6573,Male,67.4,Glioblastoma,not reported,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0185,Male,54.5,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0140,Male,86.4,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-27-2528,Male,62.6,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-41-4097,Female,63.3,Glioblastoma,white,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-1823,Female,58.5,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0619,Male,60.0,Glioblastoma,white,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0219,Male,67.0,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-1456,Male,23.8,Glioblastoma,white,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0192,Male,58.2,Glioblastoma,white,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+GBM,TCGA-GBM,TCGA-02-2486,Male,64.0,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-16-0861,Male,65.1,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0875,Female,61.1,Glioblastoma,white,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0879,Male,52.4,Glioblastoma,white,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-74-6581,Male,77.4,Glioblastoma,not reported,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-74-6578,Male,58.8,Glioblastoma,not reported,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-1396,Female,78.7,Glioblastoma,white,0,1,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0195,Male,63.3,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-5218,Male,63.2,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-5416,Female,23.4,Glioblastoma,white,0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1
+GBM,TCGA-GBM,TCGA-19-2623,Male,65.3,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-02-0003,Male,50.2,Glioblastoma,white,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0189,Male,55.6,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-6286,Male,60.7,Glioblastoma,white,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-1597,Female,62.6,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-1453,Male,69.3,Glioblastoma,white,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-5960,Male,56.5,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-4929,Female,76.2,Glioblastoma,white,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1
+GBM,TCGA-GBM,TCGA-76-4925,Male,76.7,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-1600,Male,86.0,Glioblastoma,white,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-1789,Female,69.2,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-5301,Male,59.6,Glioblastoma,white,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-1598,Female,75.9,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-02-2470,Male,57.6,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-1385,Male,69.7,Glioblastoma,white,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-5858,Female,45.6,Glioblastoma,white,0,1,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-1806,Male,47.4,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0688,Male,74.2,Glioblastoma,white,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-3652,Male,60.0,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-0813,Male,78.3,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-1970,Male,59.2,Glioblastoma,white,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-2570,Female,21.7,Glioblastoma,white,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-27-2527,Male,81.1,Glioblastoma,white,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-0740,Male,70.2,Glioblastoma,white,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+GBM,TCGA-GBM,TCGA-02-0055,Female,62.4,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+GBM,TCGA-GBM,TCGA-06-5418,Female,75.5,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-6701,Male,60.4,Glioblastoma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-1390,Female,63.1,Glioblastoma,white,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1
+GBM,TCGA-GBM,TCGA-06-1800,Male,61.1,Glioblastoma,white,0,1,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-4213,Female,47.2,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-6694,Female,76.4,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0122,Female,84.8,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-3651,Male,77.4,Glioblastoma,white,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0
+GBM,TCGA-GBM,TCGA-19-0957,Female,48.5,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+GBM,TCGA-GBM,TCGA-14-0817,Female,69.6,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-5958,Male,56.0,Glioblastoma,white,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-2625,Female,76.5,Glioblastoma,white,0,1,0,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-1825,Male,70.3,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+GBM,TCGA-GBM,TCGA-27-2521,Male,34.7,Glioblastoma,white,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-OX-A56R,Male,68.9,Glioblastoma,black or african american,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-16-0849,Male,54.6,Glioblastoma,white,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-6657,Male,74.9,Glioblastoma,white,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0158,Male,73.5,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-2501,--,0.0,--,--,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-6280,Male,57.3,Glioblastoma,white,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-1747,Male,44.6,Glioblastoma,white,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+GBM,TCGA-GBM,TCGA-06-2559,Male,83.7,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+GBM,TCGA-GBM,TCGA-06-0878,Male,74.8,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0166,Male,51.8,Glioblastoma,white,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-5208,Male,52.2,Glioblastoma,white,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+GBM,TCGA-GBM,TCGA-28-1749,Male,73.3,Glioblastoma,white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-1387,Male,81.8,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0615,Female,78.3,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-27-1830,Male,57.9,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-2561,Female,53.4,Glioblastoma,white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-0786,Female,50.9,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-A5U1,Female,78.2,Glioblastoma,black or african american,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+GBM,TCGA-GBM,TCGA-19-5951,Female,76.6,Glioblastoma,white,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+GBM,TCGA-GBM,TCGA-76-6191,Male,57.3,Glioblastoma,white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+GBM,TCGA-GBM,TCGA-19-4065,Male,36.3,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-RR-A6KA,Female,72.8,Glioblastoma,black or african american,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0221,Male,31.0,Glioblastoma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-2502,Male,65.2,Glioblastoma,white,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-5859,Male,63.6,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-6389,Female,50.0,Glioblastoma,white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-2495,Female,59.9,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0743,Male,69.6,Glioblastoma,white,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0821,Male,62.8,Glioblastoma,white,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-1755,Female,52.7,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-4211,Male,56.8,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-2562,Male,81.5,Glioblastoma,white,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-4209,Male,40.8,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-41-3393,Female,81.9,Glioblastoma,white,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-4932,Female,50.5,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0826,Female,38.0,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-27-2519,Male,48.5,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-RR-A6KB,Male,51.2,Glioblastoma,black or african american,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-27-1831,Male,66.9,Glioblastoma,white,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+GBM,TCGA-GBM,TCGA-28-2510,--,0.0,--,--,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0644,Male,71.9,Glioblastoma,black or african american,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-2569,Female,24.4,Glioblastoma,black or african american,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-1977,Female,63.5,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0187,Male,69.3,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-26-5136,Female,78.0,Glioblastoma,white,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0882,Male,30.4,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-16-0850,Female,52.8,Glioblastoma,white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+GBM,TCGA-GBM,TCGA-32-1976,Male,65.2,Glioblastoma,white,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0877,Male,78.7,Glioblastoma,white,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-4W-AA9R,Male,61.1,Glioblastoma,black or african american,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-2564,Male,50.5,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-1788,Male,39.2,Glioblastoma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0707,Male,55.1,Glioblastoma,white,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0214,Male,66.2,Glioblastoma,white,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1
+GBM,TCGA-GBM,TCGA-14-0781,Male,49.0,Glioblastoma,black or african american,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-4W-AA9T,Female,54.2,Glioblastoma,black or african american,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-5856,Male,58.1,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-41-6646,Female,73.0,Glioblastoma,white,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0145,Female,53.8,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-26-1439,Male,63.8,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-1093,Female,66.5,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-0736,Male,49.9,Glioblastoma,black or african american,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0745,Male,59.9,Glioblastoma,white,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-0789,Male,54.9,Glioblastoma,white,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-26-6173,Male,57.8,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-27-1838,Female,59.4,Glioblastoma,white,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-6663,Female,44.2,Glioblastoma,white,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-2494,Female,58.0,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-2567,Male,65.0,Glioblastoma,white,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-41-2572,Male,67.1,Glioblastoma,white,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0775,Female,75.5,Glioblastoma,black or african american,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+GBM,TCGA-GBM,TCGA-41-3392,Male,88.6,Glioblastoma,white,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-3477,Female,38.6,Glioblastoma,black or african american,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-A6S1,Female,53.2,Glioblastoma,black or african american,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0692,Female,75.3,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-1795,Male,66.7,Glioblastoma,white,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+GBM,TCGA-GBM,TCGA-19-1386,Male,51.1,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-A6J5,Male,41.0,Glioblastoma,black or african american,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-6699,Female,58.0,Glioblastoma,white,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-16-0848,Male,57.1,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-74-6584,Female,55.4,Glioblastoma,not reported,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0820,Male,40.7,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-4157,Male,40.6,Glioblastoma,black or african american,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0130,Male,54.2,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-02-2485,Male,53.4,Glioblastoma,black or african american,0,1,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-5299,Female,56.0,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-3646,Female,59.8,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-2558,Female,75.3,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-2565,Male,59.0,Glioblastoma,asian,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-6391,Female,44.4,Glioblastoma,white,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0238,Male,46.6,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-4926,Male,68.7,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-A7TL,Female,30.9,Glioblastoma,black or african american,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-0790,Female,64.8,Glioblastoma,white,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+GBM,TCGA-GBM,TCGA-12-0616,Female,36.8,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-02-0047,Male,78.7,Glioblastoma,white,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-5955,Male,83.6,Glioblastoma,white,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-1827,Male,51.6,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0157,Female,63.3,Glioblastoma,white,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0168,Female,59.6,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-26-5135,Female,72.5,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+GBM,TCGA-GBM,TCGA-06-6698,Female,53.6,Glioblastoma,white,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0
+GBM,TCGA-GBM,TCGA-26-5134,Male,74.2,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+GBM,TCGA-GBM,TCGA-12-5295,Female,60.7,Glioblastoma,white,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0154,Male,54.8,Glioblastoma,white,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0691,Male,63.0,Glioblastoma,white,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-1602,Male,58.8,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0670,Male,60.8,Glioblastoma,white,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-1757,Male,71.7,Glioblastoma,white,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0829,Male,75.2,Glioblastoma,black or african american,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0749,Male,50.8,Glioblastoma,black or african american,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-5413,Male,67.0,Glioblastoma,white,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0646,Male,61.0,Glioblastoma,white,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-26-6174,Female,65.4,Glioblastoma,white,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0662,Male,51.2,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-2514,Male,45.8,Glioblastoma,asian,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0650,Female,39.9,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-4931,Female,70.7,Glioblastoma,white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0649,Female,73.4,Glioblastoma,black or african american,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0241,Female,66.0,Glioblastoma,white,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-5956,Female,53.6,Glioblastoma,white,0,1,1,1,1,1,1,0,1,1,0,1,0,0,1,0,1,0,1,1
+GBM,TCGA-GBM,TCGA-06-0173,Female,72.7,Glioblastoma,white,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-02-2466,Male,61.5,Glioblastoma,white,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-6697,Male,65.1,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0129,Male,30.9,Glioblastoma,asian,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-6695,Male,64.1,Glioblastoma,white,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-15-1446,Male,55.7,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+GBM,TCGA-GBM,TCGA-16-1048,--,0.0,--,--,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-27-2526,Female,79.3,Glioblastoma,white,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-6192,Male,74.8,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-27-2523,Male,63.1,Glioblastoma,white,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0119,Female,81.1,Glioblastoma,white,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-27-1835,Female,53.2,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-4W-AA9S,Male,69.9,Glioblastoma,black or african american,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-2629,Male,60.9,Glioblastoma,white,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-RR-A6KC,Male,55.6,Glioblastoma,black or african american,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0237,Female,75.9,Glioblastoma,white,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0211,Male,48.0,Glioblastoma,white,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-6283,Female,71.2,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0188,Male,71.4,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-4208,Male,25.2,Glioblastoma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-5414,Male,61.7,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-3644,Female,47.8,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-87-5896,Female,50.4,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-5410,Female,72.3,Glioblastoma,white,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-1821,Male,31.0,Glioblastoma,white,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+GBM,TCGA-GBM,TCGA-06-0126,Male,86.6,Glioblastoma,white,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-0827,Female,38.6,Glioblastoma,white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0210,Female,72.8,Glioblastoma,white,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0213,Female,55.1,Glioblastoma,white,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-1037,Female,66.9,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0645,Female,56.0,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0171,Male,65.9,Glioblastoma,white,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-5954,Female,72.2,Glioblastoma,white,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-27-1836,Female,33.0,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-2621,Male,83.3,Glioblastoma,white,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-02-2483,Male,43.7,Glioblastoma,asian,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-1986,Male,68.6,Glioblastoma,white,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-1599,Female,47.7,Glioblastoma,white,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-A6S0,Male,79.5,Glioblastoma,black or african american,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-0865,Male,67.9,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+GBM,TCGA-GBM,TCGA-16-1045,Female,49.8,Glioblastoma,white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-5209,Female,66.7,Glioblastoma,white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-A6J4,Male,68.6,Glioblastoma,black or african american,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-5947,Female,47.1,Glioblastoma,black or african american,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0155,Male,61.6,Glioblastoma,white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-6664,Female,49.4,Glioblastoma,white,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0124,Male,67.3,Glioblastoma,white,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0151,Female,32.7,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-26-5139,Female,65.1,Glioblastoma,white,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+GBM,TCGA-GBM,TCGA-76-4934,Female,66.6,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0141,Male,62.8,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0881,Male,50.0,Glioblastoma,white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-3653,Female,34.3,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-1751,Female,61.0,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0648,Male,78.0,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0174,Male,54.3,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+GBM,TCGA-GBM,TCGA-19-1389,Male,51.1,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-1753,Male,53.0,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-76-6193,Male,78.7,Glioblastoma,not reported,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-3650,Male,46.9,Glioblastoma,white,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-1395,Male,52.7,Glioblastoma,white,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-2616,Female,48.7,Glioblastoma,white,0,1,1,1,0,0,0,1,1,0,0,1,0,1,1,1,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-5411,Male,51.6,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-5215,Female,62.1,Glioblastoma,white,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-5953,Male,58.1,Glioblastoma,white,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-14-1043,Male,61.3,Glioblastoma,white,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-0128,Male,66.3,Glioblastoma,white,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-12-1089,Male,64.1,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-27-1834,Male,56.3,Glioblastoma,white,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-19-5959,Female,77.9,Glioblastoma,white,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-16-0846,Male,85.2,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-28-1746,Female,77.5,Glioblastoma,white,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-32-2491,Male,63.3,Glioblastoma,white,0,1,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0
+GBM,TCGA-GBM,TCGA-06-2557,Male,76.6,Glioblastoma,black or african american,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
