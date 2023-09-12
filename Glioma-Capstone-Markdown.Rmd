@@ -1,0 +1,465 @@
+---
+title: "Gliomas"
+author: "LW"
+date: "2023-09-06"
+output: 
+  pdf_document:
+    latex_engine: xelatex
+    toc: true
+---
+
+```{r package and library installs, message=FALSE, warning=FALSE, include=FALSE}
+if(!require(tidymodels)) install.packages("tidymodels", repos = "http://cran.us.r-project.org")
+if(!require(rpart)) install.packages("rpart", repos = "http://cran.us.r-project.org")
+if(!require(rsample)) install.packages("rsample", repos = "http://cran.us.r-project.org")
+if(!require(tidyr)) install.packages("tidyr", repos = "http://cran.us.r-project.org")
+if(!require(lubridate)) install.packages("lubridate", repos = "http://cran.us.r-project.org")
+if(!require(magrittr)) install.packages("magrittr", repos = "http://cran.us.r-project.org")
+if(!require(dplyr)) install.packages("dplyr", repos = "http://cran.us.r-project.org")
+if(!require(baguetts)) install.packages("baguette", repos = "http://cran.us.r-project.org")
+if(!require(ranger)) install.packages("ranger", repos = "http://cran.us.r-project.org")
+if(!require(vip)) install.packages("vip", repos = "http://cran.us.r-project.org")
+if(!require(xgboost)) install.packages("xgboost", repos = "http://cran.us.r-project.org")
+if(!require(rpart.plot)) install.packages("rpart.plot", repos = "http://cran.us.r-project.org")
+if(!require(knitr)) install.packages("knitr", repos = "http://cran.us.r-project.org")
+if(!require(tinytex)) install.packages("tinytex", repos = "http://cran.us.r-project.org")
+
+library(tidymodels)
+library(magrittr)
+library(dplyr)
+library(baguette)
+library(vip)
+library(rpart.plot)
+library(tinytex)
+```
+
+# INTRODUCTION
+
+  This data set was obtained from the UC Irvine Machine Learning Repository [here](https://archive.ics.uci.edu/dataset/759/glioma+grading+clinical+and+mutation+features+dataset)^1^. There are 839 rows, each representing a patient. The 23 Attributes are tumor Grade, source Project, Case_ID, Gender, Age at diagnosis, Primary diagnosis, Race, and presence/absence of mutations on 15 Genes. 
+  The goal of this project was to build a classification tree model to predict tumor Grade based on Gene mutations. The two Grades are **High-Grade GBM**s and **Lower-Grade LGG**s. Glioblastoma multiforme (GBM) is a fast-growing brain/spinal cord tumor and is the most common type of primary malignant brain tumor in adults^2^. This data set has been used in numerous studies as prognostic and diagnostic molecular tests are often cost-prohibitive for patients. Data was first imported, cleaned, and split in to test and train sets. Four classification models were built and performance of each on the test set was evaluated.
+
+```{r open and preview data}
+genes<- read.csv("TCGA_GBM_LGG_Mutations_all.csv")
+head(genes)
+```
+
+
+# METHODS
+
+## Data Cleaning and Feature Engineering
+
+First, all character and integer attributes were converted to factors. There were also four rows for patients that had no Gender, Diagnosis, or Race which were removed. 
+
+```{r convert non-numeric attributes to factors, results= 'hide'}
+genes<- genes %>% mutate(across(.cols= where(is.character), .fns= as.factor))
+genes<- genes %>% mutate(across(.cols= where(is.integer), .fns= as.factor))
+str(genes)
+```
+
+```{r remove empty rows, results= 'hide'}
+# remove four patients with empty Gender, Diagnosis, Race
+genes<- genes %>% filter(Gender != "--")
+```
+
+```{r check for NAs, results = 'hide'}
+colSums(is.na(genes))
+```
+
+```{r cleaned data set}
+str(genes)
+```
+Then, the data was split to the default 75% train and 25% test. The strata argument ensures that the Grade levels are distributed evenly across data splits.
+```{r data split}
+# split data in to train and test sets
+set.seed(1998)
+genes_split<- initial_split(genes, strata=Grade) #strata ensures even distribution of Grade
+genes_train<- training(genes_split)
+genes_test<- testing(genes_split)
+nrow(genes_train)/nrow(genes)
+```
+
+## Exploratory Data Analysis
+
+Looking at the factor counts of each factor attribute, we see that the two Grades are evenly split, with slightly less (43% of total) GBM than LGG.
+
+```{r table of factor counts}
+genes_count<- genes[,-2:-7] # exclude demographics
+result<- apply(genes_count, 2, function(x) table(x)) # factor counts for each column
+result
+```
+
+The Genes are ordered in the data set by mutation frequency, as mutation frequency decreases as the columns increase. IDH1, for example, has a mutation frequency of 414 of the 837 rows whereas PDGFRA has a mutation frequency of only 22 of the 837 rows.
+
+```{r format data for visualization, echo = FALSE}
+# convert to data frame
+result<- as.data.frame(result)
+# convert from wide
+result_long <- result %>%
+  rownames_to_column(var = "Factor") %>%
+  pivot_longer(cols = 3:22, names_to = "Gene", values_to = "Ratio")
+# convert Gene column to factor and specify levels
+result_long$Gene <- factor(result_long$Gene, levels = colnames(result))
+# retain original order
+result_long <- result_long[order(result_long$Gene), ]
+```
+
+```{r mutation bar plot}
+# Create a bar plot of the ratios
+ggplot(result_long, aes(x = Gene, y = Ratio, fill = Factor)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Ratios of Mutations", x = "Gene", y = "Count") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+ scale_fill_discrete(labels=c('No Mutation','Mutation'))
+```
+
+### Variable Importance
+
+```{r Decision Tree model}
+# set specifications and fit to create Decision Tree model
+model_base<- decision_tree() %>%
+  set_mode("classification") %>%
+  set_engine("rpart") %>% 
+  fit(Grade~.-Project-Case_ID-Primary_Diagnosis, data= genes_train)
+```
+
+```{r Decision Tree predictions, results = 'hide'}
+# predict on test set
+preds_base<- predict(model_base, genes_test, type="prob")
+preds_base
+```
+
+```{r add Decision Tree predictions to test set, results = 'hide'}
+preds_base<- data.frame(Grade= genes_test$Grade, preds_base)
+# label with new model column 
+preds_base<- preds_base %>% mutate(model= "Tree")
+preds_base
+```
+
+The Decision Tree and Variable Importance Plot identify the Gene IDH1 to be the most influential factor in determining tumor Grade.
+```{r visualize decision tree}
+rpart_model_base<- rpart(Grade~. -Project -Case_ID -Primary_Diagnosis, genes, cp=0.02)
+rpart.plot(rpart_model_base)
+```
+
+```{r plot variable importance for predictors, echo=FALSE}
+vip(rpart_model_base)
+```
+
+  It is well established that increased age is a determinant of cancer prevalence. Similarly, several types of cancers are widely attributed to missense mutations of the IDH1 Gene. These models will therefore zoom in on the role the other Genes play in the severity of brain gliomas in this data set.
+  The appearance of the rpart tree can be customized, as detailed by [Stephen Milborrow](milbo.org/rpart-plot/prp.pdf)^3^. We can now see the relative importance of the remaining Genes in the probability of their mutations resulting in either a High-Grade GBM or Lower-Grade Glioma. Each leaf is labelled with a probability value on the left and a percent of the sample on the right. For example, from the bottom-right, 24% of the test set had no PTEN mutation with an ATRX mutation. Those patients have a 0.88 probability of having a Low-Grade Glioma. 
+```{r plot Decision Tree}
+rpart_model<- rpart(Grade~.-Project-Case_ID-Primary_Diagnosis-IDH1-Age_at_diagnosis, genes, cp=0.02)
+# customize appearance
+rpart.plot(rpart_model, type=3, clip.right.labs= FALSE, branch= .3, under= TRUE)
+```
+
+
+## Classification Tree
+  The first model built was a simple Classification Tree. Robust to outliers and relatively fast to train, these trees can have high variance and are prone to overfitting. The parsnip, rsample, and yardstick libraries in the tidymodels package were used for all of these models.
+```{r model on just genes}
+# model on just genes, removing IDH1 and Age, using the same process as above
+model <- decision_tree() %>%
+  set_mode("classification") %>%
+  set_engine("rpart") %>% 
+  fit(Grade~.-Project-Case_ID-Primary_Diagnosis-IDH1-Age_at_diagnosis, data= genes_train)
+preds_tprob<- predict(model, genes_test, type="prob")
+preds_tree<- data.frame(Grade= genes_test$Grade, preds_tprob)
+preds_tree<- preds_tree %>% mutate(model= "Tree")
+```
+
+The ROC AUC value for this model is ```r roc_auc(preds_tree, Grade, .pred_GBM)```.
+```{r Decision Tree AUC}
+roc_auc(preds_tree, Grade, .pred_GBM)
+```
+
+Other performance metrics can be calculated on class, rather than probability, predictions.  
+```{r Decision Tree class predictions, results= 'hide'}
+# change to class predictions for additional metrics
+preds_tclass<- predict(model, genes_test, type="class")
+preds_tclass
+# combine actual test Grades with class predictions
+preds_tree_class<- data.frame(Grade= genes_test$Grade, preds_tclass)
+preds_tree_class<- preds_tree_class %>% mutate(model= "Tree")
+preds_tree_class
+```
+
+```{r Decision Tree class metrics, results= 'hide'}
+accuracy(preds_tree_class, Grade, .pred_class)
+precision(preds_tree_class, Grade, .pred_class)
+recall(preds_tree_class, Grade, .pred_class)
+f_meas(preds_tree_class, Grade, .pred_class)
+```
+
+The diagonals of a confusion matrix identify the number of accurate predictions versus false positive and false negative predictions. In this case, the model accurately predicted Grade 81+86= 167 times, while there were 39+9= 48 incorrect predictions on the test set. 
+```{r Decision Tree confusion matrix}
+conf_mat(preds_tree_class, Grade, .pred_class)
+```
+In an attempt to improve performance, three more model types were built, tested, and compared.
+
+
+## Bagging
+
+There was evidence of high variance exhibited in the difference between the original rpart tree and the classification tree when Age and IDH1 were dropped. The next model is an ensemble model, which essentially combines the predictions of several models, in this case via **B**ootstrap **Agg**regation, or Bagging. The baguette package functions were used for this method.  
+
+```{r create Bagging specification}
+spec_bagged<- bag_tree() %>% set_mode("classification") %>% set_engine("rpart", times= 100)
+```
+
+```{r fit Bagging model to the training data}
+model_bagged<- fit(spec_bagged, formula= Grade~.-Project-Case_ID-Primary_Diagnosis-IDH1-Age_at_diagnosis, data= genes_train)
+```
+
+```{r predicted Bagging probabilities of test data, results= 'hide'}
+preds_bag<- predict(model_bagged, genes_test, type="prob")
+preds_bagging<- data.frame(Grade= genes_test$Grade, preds_bag)
+preds_bagging<- preds_bagging %>% mutate(model= "Bagging")
+preds_bagging
+```
+
+```{r predicted Bagging class probabilitites, include = FALSE}
+# change to class predictions for additional metrics
+preds_bagclass<- predict(model_bagged, genes_test, type="class")
+preds_bagclass
+```
+
+```{r Bagging class prediction data frame, include = FALSE}
+# combine actual test Grades with class predictions
+preds_bag_class<- data.frame(Grade= genes_test$Grade, preds_bagclass)
+preds_bag_class<- preds_bag_class %>% mutate(model= "Tree")
+preds_bag_class
+```
+
+In this case, the performance of the model on the test set was perfect.
+```{r Bagging metrics}
+# calculate AOC
+roc_auc(preds_bagging, Grade, .pred_GBM)
+```
+
+```{r, Bagging class metrics, include = FALSE}
+# calculate class metrics
+accuracy(preds_bag_class, Grade, .pred_class)
+precision(preds_bag_class, Grade, .pred_class)
+recall(preds_bag_class, Grade, .pred_class)
+f_meas(preds_bag_class, Grade, .pred_class)
+```
+
+This is confirmed by the confusion matrix showing no incorrect predictions.
+```{r Bagging confusion matrix}
+conf_mat(preds_bag_class, Grade, .pred_class)
+```
+
+## Random Forest
+
+Additional models were built to provide options for optimal performance on a larger data set when available. Random Forest is another ensemble of trees trained on bootstrapped samples, with a bit of extra randomness added to the model. Rather than considering all variables together, only a subset of predictors is considered for each split. The majority vote is the final prediction. This model was built using the rand_forest() function in the parsnip package. 
+```{r specify Random Forest}
+spec<- rand_forest() %>% set_mode("classification") %>% 
+  # specify algorithm that controls node split
+  set_engine("ranger", importance= "impurity")
+```
+
+```{r train Random Forest}
+forest_model<- spec %>% fit(Grade~.-Project-Case_ID-Primary_Diagnosis-IDH1-Age_at_diagnosis, data= genes_train)
+```
+
+```{r run Random Forest model on test}
+preds_f<- forest_model %>% predict(genes_test, type="prob")
+```
+
+```{r add test Grade column to Random Forest predictions, results = 'hide'}
+# create data frame with actual test Grade and modeled test predictions
+preds_forest<- data.frame(Grade= genes_test$Grade, preds_f)
+preds_forest<- preds_forest %>% mutate(model= "Random Forest")
+preds_forest
+```
+
+```{r Random Forest class predictions, include= FALSE}
+preds_fclass<- predict(forest_model, genes_test, type="class")
+preds_fclass
+```
+
+```{r RF actual test grade and class prediction data frame, include= FALSE}
+# combine actual test Grades with class predictions in a data frame
+preds_forest_class<- data.frame(Grade= genes_test$Grade, preds_fclass)
+preds_forest_class<- preds_forest_class %>% mutate(model= "Tree")
+preds_forest_class
+```
+
+Again, the model built accurately predicted each of the test set's Grades.
+```{r Random Forest class metrics, echo = FALSE}
+roc_auc(preds_forest, Grade, .pred_GBM)
+```
+
+```{r, RF class metrics, include= FALSE}
+accuracy(preds_forest_class, Grade, .pred_class)
+precision(preds_forest_class, Grade, .pred_class)
+recall(preds_forest_class, Grade, .pred_class)
+f_meas(preds_forest_class, Grade, .pred_class)
+```
+
+```{r Random Forest confusion matrix}
+conf_mat(preds_forest_class, Grade, .pred_class)
+```
+
+## Boosting
+
+Boosting is another ensemble method that incorporates the Gradient Descent technique to Adaptive Boosting. After evaluating the first tree, the loss function is used to select and optimize predictions of observations that are difficult to classify. Subsequent trees then better classify those observations which were not initially well- classified. This was done using Tidymodels' xgboost package^3^.
+```{r Boosting model specs}
+boost_spec<- boost_tree() %>% set_mode("classification") %>% set_engine("xgboost")
+```
+
+```{r fit Boosted model}
+boost_model <- fit(boost_spec, Grade~.-Project-Case_ID-Primary_Diagnosis-IDH1-Age_at_diagnosis, genes_train)
+```
+
+```{r Boosting Cross Validation}
+set.seed(1998)
+folds<- vfold_cv(genes_train, v=10)
+```
+
+The out-of-the-box performance as measured by AUC for the untuned model is 85%.
+```{r OOB performance of untuned model}
+# out-of-the-box performance for untuned model
+cv_results<- fit_resamples(boost_spec, Grade~.-Project-Case_ID-Primary_Diagnosis-IDH1-Age_at_diagnosis, resamples= folds, metrics= metric_set(roc_auc))
+collect_metrics(cv_results, summarize= FALSE)
+collect_metrics(cv_results)
+```
+
+Through trial and error, 500 trees and 4 levels were settled upon as providing the best performance.
+
+Trees | Levels | AUC
+------|--------|------
+200   |   5    | 0.843
+300   |   4    | 0.865
+100   |   3    | 0.866
+500   |   3    | 0.870
+500   |   4    | 0.882
+
+```{r tuning spec}
+# create tuning spec with placeholders
+boost_spec<- boost_tree(trees= 500, learn_rate= tune(), tree_depth= tune(), sample_size= tune()) %>% set_mode("classification") %>% set_engine("xgboost")
+```
+
+```{r  create tuning grid}
+tunegrid_boost<- grid_regular(extract_parameter_set_dials(boost_spec), levels= 4)
+```
+
+The tune_grid function computes performance metrics for the tuning parameters.
+```{r tune along the grid, warning= FALSE}
+tune_results<- tune_grid(boost_spec, Grade~.-Project-Case_ID-Primary_Diagnosis-IDH1-Age_at_diagnosis, folds, tunegrid_boost, metric_set(roc_auc))
+```
+
+```{r visualize tune results, include = FALSE}
+autoplot(tune_results)
+```
+
+The select_best() function specifies optimal values for the placeholder parameters that were set to tune in boost_spec.
+```{r select best parameters for tuning, warning= FALSE}
+best_params<- select_best(tune_results)
+best_params
+```
+
+```{r finalize the model}
+final_spec<- finalize_model(boost_spec, best_params)
+```
+
+```{r train the final model}
+final_model<- final_spec %>% fit(Grade~.-Project-Case_ID-Primary_Diagnosis-IDH1-Age_at_diagnosis, data= genes_train)
+```
+
+```{r make predictions on test set}
+preds_b<- predict(final_model, genes_test, type="prob")
+```
+
+```{r Boosted prob predictions data frame, results= 'hide'}
+# create data frame with predictions and column for model type
+preds_boosting<- data.frame(Grade= genes_test$Grade, preds_b)
+preds_boosting<- preds_boosting %>% mutate(model= "Boosting")
+preds_boosting
+```
+
+```{r Boosting class predictions, include= FALSE}
+# change to class predictions for additional metrics
+preds_bclass<- predict(final_model, genes_test, type="class")
+preds_bclass
+```
+
+```{r Boosting class preds, include = FALSE}
+# combine actual test Grades with class predictions
+preds_boost_class<- data.frame(Grade= genes_test$Grade, preds_bclass)
+preds_boost_class<- preds_boost_class %>% mutate(model= "Boost")
+preds_boost_class
+```
+
+Tuning the tree depth, learn rate, and sample size improved the AUC by 0.028 to 0.879.
+```{r Boosting AUC}
+# AUC prob metric
+roc_auc(preds_boosting, Grade, .pred_GBM)
+```
+
+```{r, Boosting class metrics, include = FALSE}
+accuracy(preds_boost_class, Grade, .pred_class)
+precision(preds_boost_class, Grade, .pred_class)
+recall(preds_boost_class, Grade, .pred_class)
+f_meas(preds_boost_class, Grade, .pred_class)
+```
+
+```{r Boosted confidence matrix}
+conf_mat(preds_boost_class, Grade, .pred_class)
+```
+
+# RESULTS
+
+The metrics indicate that, for this data set, the Bagging and Random Forest models performed best. With a larger data set, that may not be the case. Boosting with tuning performed only slightly better than the simple Classification Tree. 
+```{r AUC for each model, include= FALSE}
+# Calculate AUC for each model and add a model type column
+auc_preds_tree <- preds_tree %>%
+  roc_auc(truth = Grade, .pred_GBM) %>%
+  mutate(model = "Tree")
+
+auc_preds_bagging <- preds_bagging %>%
+  roc_auc(truth = Grade, .pred_GBM) %>%
+  mutate(model = "Bagging")
+
+auc_preds_forest <- preds_forest %>%
+  roc_auc(truth = Grade, .pred_GBM) %>%
+  mutate(model = "Forest")
+
+auc_preds_boosting <- preds_boosting %>%
+  roc_auc(truth = Grade, .pred_GBM) %>%
+  mutate(model = "Boosting")
+```
+
+```{r add model names column, echo= FALSE}
+# Combine AUC results with model names
+auc_results <- bind_rows(
+  auc_preds_tree,
+  auc_preds_bagging,
+  auc_preds_forest,
+  auc_preds_boosting)
+auc_results
+```
+
+All model predictions were combined to construct ROC Curves for each model. This is a visualization of the performance (sensitivity vs specificity) summarized by the AUC values of each model.   
+```{r combine all model predictions, echo= FALSE}
+preds_combined<- bind_rows(preds_tree, preds_bagging, preds_forest, preds_boosting)
+```
+
+```{r ROC performance curves by model}
+cutoffs<- preds_combined %>% group_by(model) %>% roc_curve(Grade, .pred_GBM)
+autoplot(cutoffs)
+```
+ 
+
+# CONCLUSION
+  The Bagging and Random Forest models performed without fault on this data set, however that may not be the case with a larger data set. Of note is that the Bagging and Random Forest models outperformed the Boosting model. This may be attributable to outliers or the high dimensionality of the data. Boosting works particularly well with unbalanced data sets, but the Grades were fairly well balanced in this data. It is also possible that the hyperparameter tuning was not fully optimized. Perhaps a Boosted model with other parameters tuned may perform better. 
+  It is also important to consider the nature of these Gene mutations, not just their presence. Future investigations could investigate molecular profiles available on these mutations to further elucidate the predictive capabilities of these mutations for prognostic and diagnostic purposes. In conjunction with stacking ensemble methods, this could lead to very strong real-world models and increased accessibility.
+
+# REFERENCES
+
+^1^ Tasci,Erdal, Camphausen,Kevin, Krauze,Andra Valentina, and Zhuge,Ying. (2022). Glioma Grading Clinical and Mutation Features. UCI Machine Learning Repository. https://doi.org/10.24432/C5R62J.
+
+^2^ https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/idh1
+
+^3^ http://milbo.org/rpart-plot/prp.pdf
+
+^4^ https://tune.tidymodels.org/
